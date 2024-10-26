@@ -1,0 +1,73 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-color: beige;
+}
+
+.Title{
+    font-size: 50px;
+}
+
+/* all the below code could be written by just .content > *{} */
+
+/* .article{
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    border: solid black 2px;
+}
+.video{
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    border: solid black 2px;
+}
+.course{
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    border: solid black 2px;
+}
+.libraries{
+    display: inline-block;
+    height: 300px;
+    width: auto;
+    border: solid black 2px;
+} */
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content > *{
+    /* display: flex; */
+    margin : 7px;
+    
+    /* display: inline-block; */
+    /* height: 300px; */
+    width: auto;
+    border: solid black 2px;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 10px;
+    /* margin: auto; */
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+table {
+    border: solid black 2px;
+}
+th{
+    border: solid black 2px;
+}
+td{
+    border: solid black 2px;
+}

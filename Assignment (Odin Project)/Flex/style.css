@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Top part {*/
+
+.top{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937;
+
+    padding: 20px;
+    /* This padding makes it not responsive. Need to fix this!! */
+    padding-left: 250px;
+    padding-right: 250px;
+
+    justify-content: center;
+}
+header, .webinfo{
+    display: flex;
+    /* width: 600px; */
+}
+
+header{
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.header-links{
+    display: flex;
+    gap: 16px;
+}
+
+.webinfo{
+    height:auto;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.SecondaryText{
+    color: #88898c;
+    font-size: 18px;
+}
+
+.logo{
+    width: 60px;
+}
+.porche911{
+    width: 380px;
+}
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.Cars{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* .header-descryption{
+    min-width: 300px;
+    max-width: 500px;
+} */
+
+button{
+    background-color: rgb(0, 119, 255);
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    color: beige;
+    font-size: 18px;
+}
+
+
+/* second section */
+
+.heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 28px 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.content img{
+    width: 200px;
+    height: 150px;
+    border: 4px solid#3882F6;
+    border-radius: 10px;
+}
+
+/* 3rd Section */
+
+.QuoteBox{
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+    /* Not Good */
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.quote{
+    color: #3b4c63;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+.thor{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 4th Section */
+.signup{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    
+    /* Not Good */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.BlueBox{
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 7px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.action{
+    font-size: 22px;
+    font-weight: 700;
+    color: beige;
+}
+.subtext{
+    color: rgb(226, 226, 204);
+
+}
+
+.BlueBox button{
+    border: 1.5px solid beige;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color:#1F2937;
+    color: beige;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}

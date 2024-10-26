@@ -1,0 +1,12 @@
+.content{
+    display: flex;
+}
+
+.content div{
+    border: 2px;
+    background-color: brown;
+    width: 100px;
+    height: 150px;
+    margin: 20px;
+    /* flex: 1; */
+}
