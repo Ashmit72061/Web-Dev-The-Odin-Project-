@@ -1,0 +1,5 @@
+{
+    "workbench.externalBrowser": "chrome",
+    "livePreview.customExternalBrowser": "Chrome",
+    "livePreview.openPreviewTarget": "External Browser"
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor - Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="title">Rock Paper Scissors!!</h1>
+
+    <div id="choose">
+        <img src="images\rock-removebg-preview.png" id="rock">
+        <img src="images\paper-removebg-preview.png" id="paper">
+        <img src="images\scissor-removebg-preview.png" id="scissor">
+    </div>
+
+    <div id="choice">
+        <div id="compChoice">
+            <h2>Computer's Choice</h2>
+            <div id="compImg"></div>
+        </div>
+        <div id="userChoice">
+            <h2>Your Choice..</h2>
+            <div id="userImg"></div>
+        </div>
+        <button id="submit">Submit</button>
+        <div id="score">
+            <table>
+                <tr>
+                    <th>Person</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>All Mighty Computer</td>
+                    <td id="compScore"></td>
+                </tr>
+                <tr>
+                    <td>All time Looser User</td>
+                    <td id="userScore"></td>
+                </tr>
+            </table>
+        </div>
+        <button id="resetScore">Reset Score</button>
+    </div>
+
+</body>
+</html>

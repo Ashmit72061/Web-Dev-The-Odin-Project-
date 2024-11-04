@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+}
+
+#container{
+    background-color: rgba(0,0,0,0.1);
+    width: 90vw;
+    height:90vh;
+    margin: 0 auto;
+    border: 4px groove red;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 2vw; */
+}
+
