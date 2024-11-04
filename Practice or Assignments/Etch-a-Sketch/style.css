@@ -13,3 +13,20 @@
     /* padding: 2vw; */
 }
 
+#red{
+    background-color: red;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+}
+#blue{
+    background-color: blue;
+    padding: 10px;
+    border: 0;
+}
+
+#noOfGrid{
+    padding: 10px;
+    border: 0;
+    background-color: bisque;
+}
